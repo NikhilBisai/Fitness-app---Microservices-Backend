@@ -1,12 +1,27 @@
-# React + Vite
+## 📌 Project Overview ##
+This project is a backend-focused fitness tracking application designed to manage user activity, calorie intake, and fitness-related data using scalable backend services. The application provides structured APIs to support core fitness features such as calorie tracking, activity logging, and user data management.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ⚙️ Key Features
+User management and authentication for secure access
+Calorie tracking and fitness activity logging
+RESTful APIs to create, update, and retrieve fitness data
+Backend logic for calculating and managing calorie intake and fitness metrics
+Structured data handling with validation and error handling
 
-Currently, two official plugins are available:
+# 🛠 Tech Stack
+Backend: Java, Spring Boot
+APIs: RESTful Web Services
+Database: MySQL / MongoDB (as applicable)
+Security: Basic authentication / JWT (if implemented)
+Tools: Maven, Git, GitHub
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🧩 Architecture
+Layered architecture (Controller, Service, Repository)
+Clean separation of concerns for maintainability and scalability
+Database integration for persistent storage of fitness and calorie data
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 🚀 Purpose & Learning Outcomes
+Strengthened understanding of backend development and REST API design
+Hands-on experience with Spring Boot, database integration, and business logic implementation
+Practiced writing clean, reusable, and maintainable backend code
+Gained experience managing a complete backend project lifecycle
